@@ -185,13 +185,31 @@ a {
 /******************************************
 /* BASE STYLES
 /*******************************************/
+.heroModule {
+  margin: 100px 0 0 70px;
+  float: right;
+  padding: 30px;
+}
 
+.module2 {
+  float: left;
+  height: 400px;
+  margin-left: 70px;
+  align-items: center;
+}
+
+.module2 div {
+  padding-right: 200px;
+  border: 3px solid black;
+
+}
 /******************************************
 /* LAYOUT
 /*******************************************/
 main {
   background-image: url(../images/IMG_0401.JPG);
   height: 600px;
+  margin-bottom: 30px;
 }
 
 /******************************************
