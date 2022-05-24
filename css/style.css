@@ -18,8 +18,31 @@
 }
 
 /******************************************
-/* Navigation
+/* Fonts
 /******************************************/
+
+h1{
+  font-family: 'Yeseva One', cursive;
+  font-size: 60px;
+}
+
+h2{
+  font-family: 'Yeseva One', cursive;
+  font-size: 50px;
+
+}
+
+h3{
+  font-family: 'Roboto', sans-serif;
+}
+
+h4{
+  font-family: 'Roboto', sans-serif;
+}
+
+h5{
+  font-family: 'Roboto', sans-serif;
+}
 
 /* Basic styling */
 
@@ -185,17 +208,30 @@ a {
 /******************************************
 /* BASE STYLES
 /*******************************************/
+
+
+
 .heroModule {
   margin: 100px 0 0 70px;
   float: right;
   padding: 30px;
 }
 
-.module2 {
+.heroLeft{
   float: left;
-  height: 400px;
-  margin-left: 70px;
+  width: 50%;
+}
+
+.heroRight{
+  float: right;
+  width: 50%;
+}
+
+.module2 {
+  display: inline-block;
+  height: 600px;
   align-items: center;
+
 }
 
 .module2 div {
@@ -203,13 +239,52 @@ a {
   border: 3px solid black;
 
 }
+
+.tabModule{
+  padding-top: 70px;
+  height: 800px;
+  background-color: rgb(237	241	243); 
+  text-align: center;
+  
+}
+
+.module4{
+  height: 600px;
+  text-align: center;
+}
+
+.monThur{
+  float: left;
+  width: 50%;
+
+}
+
+.friSat{
+  float: right;
+  width: 50%;
+}
 /******************************************
 /* LAYOUT
 /*******************************************/
 main {
   background-image: url(../images/IMG_0401.JPG);
   height: 600px;
-  margin-bottom: 30px;
+}
+
+
+
+.leftImg{
+  float: left;
+  justify-content: left;
+  width: 50%;
+  height: 600px;
+overflow: hidden;
+}
+
+.rightText{
+  float: right;
+  width: 50%;
+  padding: 50px 50px;
 }
 
 /******************************************
@@ -218,8 +293,8 @@ main {
 /* Style the tab */
 .tab {
   overflow: hidden;
-  border: 1px solid #ccc;
-  background-color: #f1f1f1;
+  display: flex;
+  justify-content: center;
 }
 
 /* Style the buttons that are used to open the tab content */
